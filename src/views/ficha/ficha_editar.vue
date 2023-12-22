@@ -4,92 +4,92 @@
             <div class="card">
                 <div class="card-body">
                     <div class="mb-3">
-                        <label class="form-label">nombre</label>
+                        <label class="form-label">nombre del equipo</label>
                         <input v-model="ficha.nombre" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">ruc</label>
-                        <input v-model="ficha.ruc" type="text" class="form-control">
+                        <label class="form-label">categoria</label>
+                        <input v-model="ficha.categoria" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">edad</label>
-                        <input v-model="ficha.edad" type="text" class="form-control">
+                        <label class="form-label">provincia</label>
+                        <input v-model="ficha.provincia" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">fecha de nacimiento</label>
-                        <input v-model="ficha.fechadenacimiento" type="tetx" class="form-control">
+                        <label class="form-label">grupo</label>
+                        <input v-model="ficha.grupo" type="tetx" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">direccion</label>
-                        <input v-model="ficha.direccion" type="text" class="form-control">
+                        <label class="form-label"> de  participantes</label>
+                        <input v-model="ficha.participantes" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">comuna</label>
-                        <input v-model="ficha.comuna" type="text" class="form-control">
+                        <label class="form-label">telefono celular 1</label>
+                        <input v-model="ficha.telefono1" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">fono</label>
-                        <input v-model="ficha.fono" type="text" class="form-control">
+                        <label class="form-label">telefono celular 2</label>
+                        <input v-model="ficha.telefono2" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">gmail</label>
-                        <input v-model="ficha.gmail" type="text" class="form-control">
+                        <label class="form-label">modelo</label>
+                        <input v-model="ficha.modelo" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">colegio</label>
-                        <input v-model="ficha.colegio" type="text" class="form-control">
+                        <label class="form-label">año</label>
+                        <input v-model="ficha.año" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">curso</label>
-                        <input v-model="ficha.curso" type="text" class="form-control">
+                        <label class="form-label">placas</label>
+                        <input v-model="ficha.placas" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
                         <label class="form-label">religion</label>
                         <input v-model="ficha.religion" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">vive</label>
-                        <input v-model="ficha.vive" type="text" class="form-control">
+                        <label class="form-label">llanta de refacion</label>
+                        <input v-model="ficha.llanta" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">nombre del padre</label>
-                        <input v-model="ficha.nombredelpadre" type="text" class="form-control">
+                        <label class="form-label">suguro</label>
+                        <input v-model="ficha.seguro" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">profecion/ocupacion</label>
-                        <input v-model="ficha.profecionocupacion" type="text" class="form-control">
+                        <label class="form-label">herramiestas</label>
+                        <input v-model="ficha.herramientas" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">casa</label>
-                        <input v-model="ficha.casa" type="text" class="form-control">
+                        <label class="form-label">luces en buen estado</label>
+                        <input v-model="ficha.luces" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">laboral</label>
-                        <input v-model="ficha.laboral" type="text" class="form-control">
+                        <label class="form-label">cinturon de seguridad</label>
+                        <input v-model="ficha.seguridad" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">celular</label>
-                        <input v-model="ficha.celular" type="text" class="form-control">
+                        <label class="form-label">nombre completo</label>
+                        <input v-model="ficha.nombre" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">nombre del madre</label>
-                        <input v-model="ficha.nombredelmadre" type="text" class="form-control">
+                        <label class="form-label">licencia</label>
+                        <input v-model="ficha.licencia" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">profeciono/cupacion</label>
-                        <input v-model="ficha.profecionocupacion" type="text" class="form-control">
+                        <label class="form-label">edad</label>
+                        <input v-model="ficha.edad" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">casa</label>
-                        <input v-model="ficha.casa" type="text" class="form-control">
+                        <label class="form-label">sexo</label>
+                        <input v-model="ficha.sexo" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">laboral</label>
-                        <input v-model="ficha.laboral" type="text" class="form-control">
+                        <label class="form-label">cum</label>
+                        <input v-model="cum" type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">celular</label>
-                        <input v-model="ficha.celular" type="text" class="form-control">
+                        <label class="form-label">equipo</label>
+                        <input v-model="equipo" type="text" class="form-control">
                     </div>
                 </div>
             </div>
@@ -111,26 +111,27 @@ export default defineComponent({
             id: this.$route.params.id,
             ficha: {
                 nombre: '',
-                ruc: '',
+                categoria: '',
+                provincia: '',
+                grupo: '',
+                participantes: '',
+                telefono1: '',
+                telefono2: '',
+                modelo: '',
+                año: '',
+                placas: '',
+                relegion: '', 
+                llanta: '', 
+                seguro: '', 
+                herramientas: '', 
+                luces: '', 
+                seguridad: '',
+                nombre: '',
+                licencia: '',
                 edad: '',
-                fechadenacimiento: '',
-                direccion: '',
-                comuna: '',
-                fono: '',
-                gmail: '',
-                colegio: '',
-                curso: '',
-                vive: '', 
-                nombredelpadre: '', 
-                profecionocupacion: '', 
-                casa: '', 
-                laboral: '', 
-                celular: '',
-                nombredelmadre: '',
-                profecionocupacion: '',
-                casa: '',
-                laboral: '', 
-                celular: '',
+                sexo: '', 
+                cum: '',
+                equyipo: '',
             },
         }
     },

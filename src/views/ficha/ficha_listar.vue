@@ -10,16 +10,16 @@
                         <thead>
                             <tr>
                                 <th scope="col">Nombre</th>
-                                <th scope="col">fechadenacimiento</th>
-                                <th scope="col">religion</th>
+                                <th scope="col">categoria</th>
+                                <th scope="col">provincia</th>
                                 
                             </tr>
                         </thead>
                         <tbody>
                             <tr v-for="data in ficha">
                                 <td>{{ data.nombre }}</td>
-                                <td>{{ data.fechadenacimiento }}</td>
-                                <td>{{ data.religion }}</td>
+                                <td>{{ data.categoria }}</td>
+                                <td>{{ data.provincia }}</td>
                                 
                                 <td>
                                     <RouterLink class="btn btn-success" :to="'/ficha_editar/' + data.id">Editar</RouterLink>
@@ -61,8 +61,8 @@ export default defineComponent({
                     // console.log(doc.id);
                     this.ficha.push({
                         nombre: doc.data().nombre,
-                        fechadenacimiento: doc.data().fechadenacimiento,
-                        religion: doc.data().religion,
+                        categoria: doc.data().categoria,
+                        provincia: doc.data().provincia,
                         id: doc.id,
                         // ...doc.data()
                     });
